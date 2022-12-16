@@ -1,6 +1,9 @@
 # Allow NFC service to be found
 allow platform_app nfc_service:service_manager find;
 
+# Allow external storage access
+allow platform_app mnt_pass_through_file:dir { create_dir_perms mounton };
+
 # Allow FastCharge HAL service to be found
 hal_client_domain(platform_app, hal_lineage_fastcharge)
 
