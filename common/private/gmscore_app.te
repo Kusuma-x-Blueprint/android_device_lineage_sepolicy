@@ -1,1 +1,1 @@
-allow gmscore_app system_data_file:file r_file_perms;
+allow gmscore_app extra_rr_data_file:file r_file_perms;

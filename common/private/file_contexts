@@ -18,3 +18,7 @@
 
 # Bash
 /(system_ext|system/system_ext)/bin/bash          u:object_r:shell_exec:s0
+
+# RatRoad
+/data/system/rr_props\.json                       u:object_r:extra_rr_data_file:s0
+/data/system/rr_keys\.xml                         u:object_r:extra_rr_data_file:s0
